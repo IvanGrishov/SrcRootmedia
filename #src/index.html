@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('_head.html',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{})
+			<main class="page">
+                @@include('_catalog.html',{})
+                @@include('_slider.html',{})
+                @@include('_block.html',{})
+                @@include('_utp.html',{})
+                @@include('_filter.html',{})
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_js.html',{})
+	</body>
+</html>
